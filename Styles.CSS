@@ -1,0 +1,122 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2D52B1;
+    overflow:hidden;
+    
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover 
+        {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active 
+        {
+            background-color: #2E62B2;
+            color: white;
+        }
+
+        p 
+        {
+            max-width:600px;
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            /* Vasen, keskitetty, oikea */
+            text-align: left;
+            /*color: xxx; */
+        }
+
+        td
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+        }
+    
+        h1
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            color: #fff;
+            /* font-weight: normal, bold, light eli bouldaus*/
+            /* font-style: normal, italic eli kursivointi */
+        }
+
+        h2
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
+        }
+
+        h3
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+        }
+
+        .lista
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+            max-width: 800px;
+            font-size: 18px;
+        }
+
+        .ulompi-alue
+        {
+            border: 0px solid #fff;
+            padding: 20px;
+        }
+
+        .paridiv
+        {
+            border: 0px solid #0aac07;
+            padding: 2rem  2rem;
+            margin: 100px;
+            text-align: center;
+            margin-top: 10px;
+            background-color: #fff;
+        }
+
+        .sisempi-alue
+        {
+            display: inline-block;
+            padding: 1rem 1rem;
+            border: 0px solid red;
+            vertical-align: middle;
+            min-height: 1000px;
+            border-right: 1px solid black;
+        }
+
+        .oikea-alue
+        {
+            display: inline-block;
+            padding: 1rem 1rem;
+            border: 0px solid rgb(0, 76, 255);
+            vertical-align: middle;
+        }
+        
+        table,td
+        {
+            border-collapse: collapse;
+            width: 60%;
+            border: 1px solid;
+
+        }
+        
+        body
+        {
+            background-color: rgb(84, 83, 83);
+        }
+        
+    
